@@ -6,3 +6,4 @@ def add_task(task):
 def show_tasks():
     for i, task in enumerate(todos):
         print (i+1, task)
+        print ("Todo app started")
